@@ -68,10 +68,18 @@ Potential directions for further development include:
 - Embedded motor control  
 - Six-step commutation  
 - Hall sensor feedback  
-- Power electronics switching  
-- Code Composer Studio (CCS)  
+- Power electronics switching
 
 ---
 
 ## Six-Step Commutation Table
-The table below defines the switching sequence used to generate a rotating magnetic field for continuous BLDC motor operation.
+The commutation table defines the switching sequence based on Hall sensor states, ensuring proper phase excitation and stable motor operation.
+
+---
+
+## Project Documentation
+
+A detailed project report is available for further reference, covering the system design, control strategy, hardware implementation, and experimental validation.
+
+- Code Composer Studio (CCS)  
+
